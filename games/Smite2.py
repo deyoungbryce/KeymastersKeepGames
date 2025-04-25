@@ -408,8 +408,12 @@ class Smite2Game(Game):
     def items() -> List[str]:
         return [
             "Amanita Charm",
+            "Ancient Signet",
+            "Ancile",
+            "Arondight",
             "Avatar's Parashu",
             "Avenging Blade",
+            "Bancroft's Talon",
             "Berserker's Shield",
             "Blood Bound Book",
             "Bloodforge",
@@ -420,6 +424,7 @@ class Smite2Game(Game):
             "Breastplate of Valor",
             "Chronos Pendant",
             "Circe's Hexstone",
+            "Dagger of Frenzy",
             "Death Metal",
             "Deathbringer",
             "Demon Blade",
@@ -450,9 +455,11 @@ class Smite2Game(Game):
             "Lernaean Bow",
             "Leviathan's Hide",
             "Lifebinder",
+            "Magi's Cloak",
             "Musashi's Dual Swords",
             "Mystical Mail",
             "Necronomicon",
+            "Nimble Ring",
             "Oath Sworn Spear",
             "Obsidian Shard",
             "Odysseus' Bow",
@@ -463,11 +470,12 @@ class Smite2Game(Game):
             "Polynomicon",
             "Prophetic Cloak",
             "Qin's Blade",
-            "Relic Dagger",
+            "Rage",
             "Rod of Asclepius",
             "Rod of Tahuti",
             "Ruinous Ankh",
-            "Sceptor of Dominion",
+            "Runeforged Hammer",
+            "Scepter of Dominion",
             "Serrated Edge",
             "Shield of the Phoenix",
             "Shield Splitter",
@@ -483,21 +491,22 @@ class Smite2Game(Game):
             "Stampede",
             "Stone of Binding",
             "Sun-Beam Bow",
-            "Talisman of Protection",
-            "Tekko-Gaki",
+            "Talisman of Purification",
+            "Tekko-Kagi",
             "The Cosmic Horror",
             "The Crusher",
             "The Executioner",
             "The Reaper",
+            "The World Stone",
             "Titan's Bane",
             "Totem of Death",
             "Transcendence",
             "Triton's Conch",
             "Typhon's Fang",
+            "Tyrfing",
             "Void Shield",
             "Void Stone",
             "Wish-Granting Pearl",
-            "World Stone",
             "Yogi's Necklace",
         ]
 
@@ -513,6 +522,7 @@ class Smite2Game(Game):
             "Leather Cowl",
             "Sands of Time",
             "Selflessness",
+            "Vampiric Shroud",
             "War Flag",
             "Warrior's Axe",
         ]
@@ -520,6 +530,7 @@ class Smite2Game(Game):
     @staticmethod
     def gods() -> List[str]:
         return [
+            "Achilles",
             "Agni",
             "Aladdin",
             "Amaterasu",
@@ -527,11 +538,14 @@ class Smite2Game(Game):
             "Anubis",
             "Aphrodite",
             "Ares",
+            "Artemis",
             "Athena",
+            "Awilix",
             "Bacchus",
             "Baron Samedi",
             "Bellona",
             "Cabrakan",
+            "Cerberus",
             "Cernnunos",
             "Chaac",
             "Cupid",
@@ -545,10 +559,12 @@ class Smite2Game(Game):
             "Hun Batz",
             "Izanami",
             "Jing Wei",
+            "Kali",
             "Khepri",
             "Kukulkan",
             "Loki",
             "Medusa",
+            "Merlin",
             "Mordred",
             "Neith",
             "Nemesis",
@@ -556,7 +572,9 @@ class Smite2Game(Game):
             "Odin",
             "Pele",
             "Poseidon",
+            "Princess Bari"
             "Ra",
+            "Rama",
             "Sobek",
             "Sol",
             "Susano",
@@ -568,77 +586,6 @@ class Smite2Game(Game):
             "Yemoja",
             "Ymir",
             "Zeus",
-        ]
-
-    @staticmethod
-    def carry() -> List[str]:
-        return [
-            "Medusa",
-            "Anhur",
-            "Cernnunos",
-            "Cupid",
-            "Danzaburou",
-            "Izanami",
-            "Jing Wei",
-            "Neith",
-            "Sol",
-        ]
-
-    @staticmethod
-    def mid() -> List[str]:
-        return [
-            "Aphrodite",
-            "Anubis",
-            "Baron Samedi",
-            "Hades",
-            "Hecate",
-            "Kukulkan",
-            "Nu Wa",
-            "Poseidon",
-            "Ra",
-            "Sol",
-            "The Morrigan",
-            "Zeus",
-        ]
-
-    @staticmethod
-    def support() -> List[str]:
-        return [
-            "Aphrodite",
-            "Ares",
-            "Athena",
-            "Bacchus",
-            "Baron Samedi",
-            "Khepri",
-            "Sobek",
-            "Yemoja",
-            "Ymir",
-        ]
-
-    @staticmethod
-    def solo() -> List[str]:
-        return [
-            "Amaterasu",
-            "Bellona",
-            "Chaac",
-            "Hades",
-            "Hercules",
-            "Mordred",
-            "Odin",
-        ]
-
-    @staticmethod
-    def jungle() -> List[str]:
-        return [
-            "Pele",
-            "Fenrir",
-            "Loki",
-            "Mordred",
-            "Nemesis",
-            "Susano",
-            "Thanatos",
-            "The Morrigan",
-            "Thor",
         ]
 
     @staticmethod
