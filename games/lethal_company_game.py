@@ -40,7 +40,7 @@ class LethalCompanyGame(Game):
                 weight=3,
             ),
             GameObjectiveTemplate(
-                label="Collect COUNT Scrap on MOON in one trip",
+                label="Collect COUNT Scrap on MOON in one day",
                 data={
                     "COUNT": (self.scrap_count_range, 1),
                     "MOON": (self.moons, 1),

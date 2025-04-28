@@ -76,14 +76,14 @@ class Smite2Game(Game):
             GameObjectiveTemplate(
                 label="Win a game using GOD",
                 data={"GOD": (self.gods, 1)},
-                is_time_consuming=True,
+                is_time_consuming=False,
                 is_difficult=False,
                 weight=6,
             ),
             GameObjectiveTemplate(
                 label="Win a game in the ROLE role",
                 data={"ROLE": (self.roles, 1)},
-                is_time_consuming=True,
+                is_time_consuming=False,
                 is_difficult=False,
                 weight=6,
             ),
@@ -93,7 +93,7 @@ class Smite2Game(Game):
                     "ROLE": (self.roles, 1),
                     "OTHER": (self.roles, 1),
                 },
-                is_time_consuming=True,
+                is_time_consuming=False,
                 is_difficult=False,
                 weight=6,
             ),
@@ -103,7 +103,7 @@ class Smite2Game(Game):
                     "GOD": (self.gods, 1),
                     "ITEM": (self.items, 1)
                 },
-                is_time_consuming=True,
+                is_time_consuming=False,
                 is_difficult=False,
                 weight=6,
             ),
@@ -113,39 +113,12 @@ class Smite2Game(Game):
                     "GOD": (self.gods, 1),
                     "ITEMS": (self.items, 3)
                 },
-                is_time_consuming=True,
+                is_time_consuming=False,
                 is_difficult=False,
                 weight=5,
             ),
             GameObjectiveTemplate(
-                label="Win a game with GOD while only using Strength Items",
-                data={
-                    "GOD": (self.gods, 1)
-                },
-                is_time_consuming=True,
-                is_difficult=False,
-                weight=5,
-            ),
-            GameObjectiveTemplate(
-                label="Win a game with GOD while only using Intelligence Items",
-                data={
-                    "GOD": (self.gods, 1)
-                },
-                is_time_consuming=True,
-                is_difficult=False,
-                weight=5,
-            ),
-            GameObjectiveTemplate(
-                label="Win a game with GOD while only using Hybrid Items",
-                data={
-                    "GOD": (self.gods, 1)
-                },
-                is_time_consuming=True,
-                is_difficult=False,
-                weight=5,
-            ),
-            GameObjectiveTemplate(
-                label="Win a game with GOD while only using Attack Speed items",
+                label="Win a game with GOD while only building Strength items (Starter Excluded)",
                 data={
                     "GOD": (self.gods, 1)
                 },
@@ -154,7 +127,7 @@ class Smite2Game(Game):
                 weight=5,
             ),
             GameObjectiveTemplate(
-                label="Win a game with GOD while only using Protection items",
+                label="Win a game with GOD while only building Intelligence items (Starter Excluded)",
                 data={
                     "GOD": (self.gods, 1)
                 },
@@ -163,7 +136,7 @@ class Smite2Game(Game):
                 weight=5,
             ),
             GameObjectiveTemplate(
-                label="Win a game with GOD while only using Cooldown Reduction items",
+                label="Win a game with GOD while only building Attack Speed items (Starter Excluded)",
                 data={
                     "GOD": (self.gods, 1)
                 },
@@ -172,7 +145,7 @@ class Smite2Game(Game):
                 weight=5,
             ),
             GameObjectiveTemplate(
-                label="Win a game with GOD while only using Max Health items",
+                label="Win a game with GOD while only building Protection items (Starter Exluded)",
                 data={
                     "GOD": (self.gods, 1)
                 },
@@ -181,7 +154,7 @@ class Smite2Game(Game):
                 weight=5,
             ),
             GameObjectiveTemplate(
-                label="Win a game with GOD while only using Max Mana items",
+                label="Win a game with GOD while only building Cooldown Reduction items (Starter Excluded)",
                 data={
                     "GOD": (self.gods, 1)
                 },
@@ -190,7 +163,25 @@ class Smite2Game(Game):
                 weight=5,
             ),
             GameObjectiveTemplate(
-                label="Win a game with GOD while only using Penetration items",
+                label="Win a game with GOD while only building Max Health items (Starter Excluded)",
+                data={
+                    "GOD": (self.gods, 1)
+                },
+                is_time_consuming=False,
+                is_difficult=False,
+                weight=5,
+            ),
+            GameObjectiveTemplate(
+                label="Win a game with GOD while only building Max Mana items (Starter Excluded)",
+                data={
+                    "GOD": (self.gods, 1)
+                },
+                is_time_consuming=False,
+                is_difficult=False,
+                weight=5,
+            ),
+            GameObjectiveTemplate(
+                label="Win a game with GOD while only building Penetration items (Starter Excluded)",
                 data={
                     "GOD": (self.gods, 1)
                 },
@@ -210,27 +201,13 @@ class Smite2Game(Game):
                 weight=3,
             ),
             GameObjectiveTemplate(
-                label="In a Conquest game, kill the Gold Fury 3 times to receive the Gold Fury Soul",
-                data=dict(),
-                is_time_consuming=True,
-                is_difficult=True,
-                weight=1,
-            ),
-            GameObjectiveTemplate(
-                label="In a Conquest game, kill the Enhanced Fire Giant one time",
-                data=dict(),
-                is_time_consuming=True,
-                is_difficult=False,
-                weight=1,
-            ),
-            GameObjectiveTemplate(
                 label="In a GAMEMODE game, deal 30,000 player damage using GOD",
                 data={
                     "GAMEMODE": (self.gamemode, 1),
                     "GOD": (self.gods, 1)
                 },
-                is_time_consuming=True,
-                is_difficult=True,
+                is_time_consuming=False,
+                is_difficult=False,
                 weight=4,
             ),
             GameObjectiveTemplate(
@@ -239,8 +216,8 @@ class Smite2Game(Game):
                     "GAMEMODE": (self.gamemode, 1),
                     "GOD": (self.gods, 1)
                 },
-                is_time_consuming=True,
-                is_difficult=True,
+                is_time_consuming=False,
+                is_difficult=False,
                 weight=4,
             ),
             GameObjectiveTemplate(
@@ -253,13 +230,6 @@ class Smite2Game(Game):
                 weight=2,
             ),
             GameObjectiveTemplate(
-                label="In a Conquest game, upgrade your designated buff to Level 4 in a single match",
-                data=dict(),
-                is_time_consuming=True,
-                is_difficult=True,
-                weight=1,
-            ),
-            GameObjectiveTemplate(
                 label="Hold 3 buffs at one time in JUNGLE with GOD",
                 data={
                     "JUNGLE": (self.jungles, 1),
@@ -270,16 +240,7 @@ class Smite2Game(Game):
                 weight=4,
             ),
             GameObjectiveTemplate(
-                label="Destroy a structure in Joust while under the effect of the Lost Knight Buff with GOD",
-                data={
-                    "GOD": (self.gods, 1),
-                },
-                is_time_consuming=False,
-                is_difficult=False,
-                weight=4,
-            ),
-            GameObjectiveTemplate(
-                label="Win a game of Asssault using a TYPE God",
+                label="Win a game of Assault using a TYPE God",
                 data={
                     "TYPE": (self.damage_types, 1),
                 },
