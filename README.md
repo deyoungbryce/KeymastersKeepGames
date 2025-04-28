@@ -4,12 +4,12 @@ Keymaster's Keep game implementations maintained by Taco.
 
 ## Games Included
 - Balatro
-- Celeste
 - Lethal Company
 - Smite 2
 
 ### WIP Games (Incomplete/Untested)
 - Blue Prince
+- Celeste
 
 ## Game Objectives
 Game objectives listed by game and type. This should help you decide whether or not to include time-consuming or difficult objectives.

@@ -63,7 +63,7 @@ class CelesteGame(Game):
             GameObjectiveTemplate(
                 label="Collect the Crystal Heart in CHAPTER",
                 data={
-                    "CHAPTER": (self.chapters_base, 1),
+                    "CHAPTER": (self.chapters, 1),
                 },
                 is_time_consuming=False,
                 is_difficult=False,
@@ -141,7 +141,7 @@ class CelesteGame(Game):
             chapters.extend(self.chapters_cside[:])
 
         if self.include_farewell:
-            chapters.extend("Farewell")
+            chapters.extend(["Farewell"])
 
         return sorted(chapters)
     
