@@ -102,7 +102,7 @@ class CelesteGame(Game):
             "Mirror Temple (A-Side)",
             "Reflection (A-Side)",
             "The Summit (A-Side)",
-            "Core (A-Side)"
+            "Core (A-Side)",
         ]
     
     @functools.cached_property
@@ -115,7 +115,7 @@ class CelesteGame(Game):
             "Mirror Temple (B-Side)",
             "Reflection (B-Side)",
             "The Summit (B-Side)",
-            "Core (B-Side)"
+            "Core (B-Side)",
         ]
     
     @functools.cached_property
@@ -128,7 +128,7 @@ class CelesteGame(Game):
             "Mirror Temple (C-Side)",
             "Reflection (C-Side)",
             "The Summit (C-Side)",
-            "Core (C-Side)"
+            "Core (C-Side)",
         ]
 
     def chapters(self) -> List[str]:
@@ -153,7 +153,7 @@ class CelesteGame(Game):
             "Celestial Resort",
             "Golden Ridge",
             "Mirror Temple",
-            "The Summit"
+            "The Summit",
         ]
     
     @staticmethod
