@@ -137,10 +137,10 @@ class CelesteGame(Game):
         if self.include_bsides:
             chapters.extend(self.chapters_bside[:])
 
-        if self.include_csides:
+        elif self.include_csides:
             chapters.extend(self.chapters_cside[:])
 
-        if self.include_farewell:
+        elif self.include_farewell:
             chapters.extend(["Farewell"])
 
         return sorted(chapters)
