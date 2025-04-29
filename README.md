@@ -4,12 +4,12 @@ Keymaster's Keep game implementations maintained by Taco.
 
 ## Games Included
 - Balatro
+- Blue Prince
+- Celeste
 - Lethal Company
 - Smite 2
 
 ### WIP Games (Incomplete/Untested)
-- Blue Prince
-- Celeste
 
 ## Game Objectives
 Game objectives listed by game and type. This should help you decide whether or not to include time-consuming or difficult objectives.
@@ -21,15 +21,23 @@ Game objectives listed by game and type. This should help you decide whether or 
 - Play (random hand) (10-20) times in a single run
 - Skip (3-8) Blinds in a single run
 - Score (80000-120000) Chips in a single hand
-- Reach Ante (9-12): Difficult
-- Complete the (random challenge) Challenge: Difficult
-- Play a (random secret poker hand): Difficult
+- Reach Ante (9-12) | Difficult
+- Complete the (random challenge) Challenge | Difficult
+- Play a (random secret poker hand) | Difficult
+
+### Blue Prince
+- Draft the (random room)
+- Complete a (parlor OR billiard) puzzle
+- Collect the following items in one day: (3 random items)
+- Draft the following rooms in a single day: (3 random rooms) | Time-Consuming
+- Draft 5 (random room type) rooms in a singles day | Time-Consuming
+- Create the (random contraption) Contraption in the Workshop | Time-Consuming, Difficult
 
 ### Celeste
 - Complete (random chapter)
 - Complete (random chapter) after collecting at least (5-18) Strawberries
 - Collect the Crystal Heart in (random a-side chapter)
-- Complete the following Chapters: (3 random chapters): Time-Consuming
+- Complete the following Chapters: (3 random chapters) | Time-Consuming
 
 ### Lethal Company
 - Collect (random scrap item)
@@ -37,9 +45,9 @@ Game objectives listed by game and type. This should help you decide whether or 
 - Sell (random scrap item)
 - Scan a (random monster)
 - Purchase (random shop item) from the store
-- Purchase the (random cosmetic) from the store: Time-Consuming
-- Land on (random moon) while the weather conditions are the following: (random weather): Time-Consuming
-- Kill (random monster): Difficult
+- Purchase the (random cosmetic) from the store | Time-Consuming
+- Land on (random moon) while the weather conditions are the following: (random weather) | Time-Consuming
+- Kill (random monster) | Difficult
 
 ### Smite 2
 - Win a game using (random god)
@@ -57,6 +65,6 @@ Game objectives listed by game and type. This should help you decide whether or 
 - In a (random gamemode) game, deal 30000 player damage using (random god)
 - In a (random gamemode) game, mitigate 30000 player damage using (random god)
 - Win a game of Assault using a (magical OR physical) God
-- Hold 3 buffs at one time in (random jungle map) with (random god): Difficult
-- In a (random gamemode) game, get First Blood: Time-Consuming, Difficult
-- Win a game with (random god) with the following build: (random starter), (6 random items): Time-Consuming, Difficult
+- Hold 3 buffs at one time in (random jungle map) with (random god) | Difficult
+- In a (random gamemode) game, get First Blood | Time-Consuming, Difficult
+- Win a game with (random god) with the following build: (random starter), (6 random items) | Time-Consuming, Difficult

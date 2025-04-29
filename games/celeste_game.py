@@ -63,7 +63,7 @@ class CelesteGame(Game):
             GameObjectiveTemplate(
                 label="Collect the Crystal Heart in CHAPTER",
                 data={
-                    "CHAPTER": (self.chapters, 1),
+                    "CHAPTER": (self.heart_chapters, 1),
                 },
                 is_time_consuming=False,
                 is_difficult=False,
@@ -93,7 +93,7 @@ class CelesteGame(Game):
         return bool(self.archipelago_options.celeste_include_csides.value)
 
     @functools.cached_property
-    def chapters_base() -> List[str]:
+    def chapters_base(self) -> List[str]:
         return [
             "Forsaken City (A-Side)",
             "Old Site (A-Side)",
@@ -106,7 +106,7 @@ class CelesteGame(Game):
         ]
     
     @functools.cached_property
-    def chapters_bside() -> List[str]:
+    def chapters_bside(self) -> List[str]:
         return [
             "Forsaken City (B-Side)",
             "Old Site (B-Side)",
@@ -119,7 +119,7 @@ class CelesteGame(Game):
         ]
     
     @functools.cached_property
-    def chapters_cside() -> List[str]:
+    def chapters_cside(self) -> List[str]:
         return [
             "Forsaken City (C-Side)",
             "Old Site (C-Side)",
@@ -137,10 +137,10 @@ class CelesteGame(Game):
         if self.include_bsides:
             chapters.extend(self.chapters_bside[:])
 
-        elif self.include_csides:
+        if self.include_csides:
             chapters.extend(self.chapters_cside[:])
 
-        elif self.include_farewell:
+        if self.include_farewell:
             chapters.extend(["Farewell"])
 
         return sorted(chapters)
@@ -159,6 +159,11 @@ class CelesteGame(Game):
     @staticmethod
     def berry_count_range() -> range:
         return range(5, 19)
+    
+    def heart_chapters(self) -> List[str]:
+        heart_chapters: List[str] = self.chapters_base[:]
+
+        return sorted(heart_chapters)
 
 # Archipelago Options
 class CelesteIncludeFarewell(Toggle):

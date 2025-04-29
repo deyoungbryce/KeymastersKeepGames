@@ -31,7 +31,7 @@ class BluePrinceGame(Game):
     def game_objective_templates(self) -> List[GameObjectiveTemplate]:
         return [
            GameObjectiveTemplate(
-               label="Draft the ROOM room",
+               label="Draft the ROOM",
                data={
                    "ROOM": (self.rooms, 1),
                },
@@ -72,11 +72,11 @@ class BluePrinceGame(Game):
                    "ITEMS": (self.items, 3),
                },
                is_time_consuming=False,
-               is_difficult=True,
+               is_difficult=False,
                weight=2,
            ),
            GameObjectiveTemplate(
-               label="Create the CONTRAPTION Contraption",
+               label="Create the CONTRAPTION Contraption in the Workshop",
                data={
                    "CONTRAPTION": (self.contraptions, 1),
                },
@@ -91,7 +91,7 @@ class BluePrinceGame(Game):
         return bool(self.archipelago_options.blueprince_include_lategame_rooms.value)
 
     @functools.cached_property
-    def base_rooms() -> List[str]:
+    def base_rooms(self) -> List[str]:
         return [
             "Spare Room",
             "Rotunda",
@@ -175,7 +175,7 @@ class BluePrinceGame(Game):
         ]
     
     @functools.cached_property
-    def late_game_rooms() -> List[str]:
+    def late_game_rooms(self) -> List[str]:
         return [
             "Dovecote",
             "The Kennel",
