@@ -61,8 +61,8 @@ Game objectives listed by game and type. This should help you decide whether to 
 ### Nine Sols
 - Defeat the following Miniboss: (random miniboss)
 - Defeat the following boss: (random boss)
-- Gift the (random gift) to Shuanshuan
-- Acquire the (random map chip) Map Data Chip from Shanhai
+- Gift the (random gift) to Shuanshuan | Time-Consuming
+- Acquire the (random map chip) Map Data Chip from Shanhai | Time-Consuming
 - Defeat the following Miniboss and Boss: (random miniboss), (random boss) | Time-Consuming
 
 ### Risk of Rain 2

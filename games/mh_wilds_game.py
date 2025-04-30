@@ -13,6 +13,9 @@ from ..game_objective_template import GameObjectiveTemplate
 from ..enums import KeymastersKeepGamePlatforms
 
 
+@dataclass
+class MHWildsArchipelagoOptions:
+    pass
 
 class MHWildsGame(Game):
     name = "Monster Hunter Wilds"
@@ -24,6 +27,8 @@ class MHWildsGame(Game):
     ]
 
     is_adult_only_or_unrated = False
+
+    options_cls = MHWildsArchipelagoOptions
 
     def optional_game_constraint_templates(self) -> List[GameObjectiveTemplate]:
         return list()
@@ -66,7 +71,7 @@ class MHWildsGame(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=3
+                weight=3,
             ),
         ]
 

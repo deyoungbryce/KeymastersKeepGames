@@ -13,6 +13,9 @@ from ..game_objective_template import GameObjectiveTemplate
 from ..enums import KeymastersKeepGamePlatforms
 
 
+@dataclass
+class NineSolsArchipelagoOptions:
+    pass
 
 class NineSolsGame(Game):
     name = "Nine Sols"
@@ -27,6 +30,8 @@ class NineSolsGame(Game):
     ]
 
     is_adult_only_or_unrated = False
+
+    options_cls = NineSolsArchipelagoOptions
 
     def optional_game_constraint_templates(self) -> List[GameObjectiveTemplate]:
         return list()
@@ -56,7 +61,7 @@ class NineSolsGame(Game):
                 data={
                     "GIFT": (self.gifts, 1),
                 },
-                is_time_consuming=False,
+                is_time_consuming=True,
                 is_difficult=False,
                 weight=2,
             ),
@@ -65,7 +70,7 @@ class NineSolsGame(Game):
                 data={
                     "CHIP": (self.map_chips, 1),
                 },
-                is_time_consuming=False,
+                is_time_consuming=True,
                 is_difficult=False,
                 weight=2,
             ),
@@ -115,6 +120,7 @@ class NineSolsGame(Game):
             "Eigong",
         ]
 
+    @staticmethod
     def gifts() -> List[str]:
         return [
             "Four Treasures of the Study",
@@ -134,6 +140,7 @@ class NineSolsGame(Game):
             "Red Guifang Clay",
         ]
     
+    @staticmethod
     def map_chips() -> List[str]:
         return [
             "Power Reservoir",
@@ -147,6 +154,23 @@ class NineSolsGame(Game):
             "Research Institute"
         ]
     
+    @staticmethod
+    def jades() -> List[str]:
+        return [
+            ""
+        ]
+    
+    @staticmethod
+    def spell_style() -> List[str]:
+        return [
+            ""
+        ]
+    
+    @staticmethod
+    def equipment() -> List[str]:
+        return [
+            ""
+        ]
 
 
 # Archipelago Options

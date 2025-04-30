@@ -30,7 +30,7 @@ class BalatroGame(Game):
         KeymastersKeepGamePlatforms.XSX,
     ]
 
-    is_adult_only_or_unrated = True
+    is_adult_only_or_unrated = False
 
     options_cls = BalatroArchipelagoOptions
 
