@@ -10,7 +10,9 @@ Keymaster's Keep game implementations maintained by Taco.
 - Smite 2
 
 ### WIP Games (Incomplete/Untested)
-- None
+- Nine Sols (Untested)
+- Monster Hunter Wilds (Untested)
+- Risk of Rain 2 (Untested)
 
 ## Game Objectives
 Game objectives listed by game and type. This should help you decide whether or not to include time-consuming or difficult objectives.
@@ -29,9 +31,9 @@ Game objectives listed by game and type. This should help you decide whether or 
 ### Blue Prince
 - Draft the (random room)
 - Complete a (parlor OR billiard) puzzle
-- Collect the following items in one day: (3 random items)
+- Collect the following items in a single day: (2 random items)
 - Draft the following rooms in a single day: (3 random rooms) | Time-Consuming
-- Draft 5 (random room type) rooms in a singles day | Time-Consuming
+- Draft 5 (random room type) rooms in a single day | Time-Consuming
 - Create the (random contraption) Contraption in the Workshop | Time-Consuming, Difficult
 
 ### Celeste
@@ -49,6 +51,26 @@ Game objectives listed by game and type. This should help you decide whether or 
 - Purchase the (random cosmetic) from the store | Time-Consuming
 - Land on (random moon) while the weather conditions are the following: (random weather) | Time-Consuming
 - Kill (random monster) | Difficult
+
+### Monster Hunter Wilds
+- Slay the following Monster: (random monster)
+- Slay (5-10) of the following small monster: (random small monster)
+- Slay the following monster with the (random weapon): (random monster)
+- Hunt 2 (random stage) Monsters
+
+### Nine Sols
+- Defeat the following Miniboss: (random miniboss)
+- Defeat the following boss: (random boss)
+- Gift the (random gift) to Shuanshuan
+- Acquire the (random map chip) Map Data Chip from Shanhai
+- Defeat the following Miniboss and Boss: (random miniboss), (random boss) | Time-Consuming
+
+### Risk of Rain 2
+- Complete a run as (random character)
+- Open (8-12) chests in (random stage)
+- Defeat (random boss)
+- Defeat (random boss) as (random character)
+- Complete a run on Monsoon Difficulty as (random character) | Difficult
 
 ### Smite 2
 - Win a game using (random god)

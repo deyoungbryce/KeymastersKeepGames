@@ -58,7 +58,7 @@ class BluePrinceGame(Game):
                weight=4,
            ),
            GameObjectiveTemplate(
-               label="Draft 5 TYPE rooms in one day",
+               label="Draft 5 TYPE rooms in a single day",
                data={
                    "TYPE": (self.room_types, 1),
                },
@@ -67,9 +67,9 @@ class BluePrinceGame(Game):
                weight=3,
            ),
            GameObjectiveTemplate(
-               label="Collect the following items in one day: ITEMS",
+               label="Collect the following items in a single day: ITEMS",
                data={
-                   "ITEMS": (self.items, 3),
+                   "ITEMS": (self.items, 2),
                },
                is_time_consuming=False,
                is_difficult=False,
