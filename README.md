@@ -15,7 +15,7 @@ Keymaster's Keep game implementations maintained by Taco.
 - Risk of Rain 2 (Untested)
 
 ## Game Objectives
-Game objectives listed by game and type. This should help you decide whether or not to include time-consuming or difficult objectives.
+Game objectives listed by game and type. This should help you decide whether to include time-consuming or difficult objectives.
 
 ### Balatro
 - Win a run with (random deck) deck
