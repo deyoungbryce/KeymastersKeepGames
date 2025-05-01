@@ -243,7 +243,7 @@ class RiskofRain2DLCOwned(OptionSet):
     """
 
     display_name = "Risk of Rain 2 DLC Owned"
-    valid_keys =[
+    valid_keys = [
         "Survivors of The Void",
         "Seekers of The Storm",
     ]

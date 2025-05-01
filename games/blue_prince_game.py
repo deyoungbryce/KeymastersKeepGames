@@ -40,7 +40,7 @@ class BluePrinceGame(Game):
                weight=4,
            ),
            GameObjectiveTemplate(
-               label="Draft the following rooms in a single day: ROOMS",
+               label="Draft the following rooms: ROOMS",
                data={
                     "ROOMS": (self.rooms, 3),
                },
@@ -249,7 +249,6 @@ class BluePrinceGame(Game):
             "Silver Key",
             "Sledgehammer",
             "Sleeping Mask",
-            "Upgrade Disk",
             "Watering Can",
         ]
     
@@ -270,7 +269,7 @@ class BluePrinceGame(Game):
 class BluePrinceIncludeLateGameRooms(Toggle):
     """
     Indicates whether to include lategame rooms when generating Blue Prince objectives.
-    Includes: rooms added by Studio, floorplans found while exploring the estate, and outdoor rooms.
+    Includes: rooms added by Studio, rooms found while exploring the estate, and outdoor rooms.
     Recommended to only set to true if playing on a 100% save file.
     """
 
