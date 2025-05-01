@@ -7,12 +7,13 @@ Keymaster's Keep game implementations maintained by Taco.
 - Blue Prince | [Objectives](#blue-prince)
 - Celeste | [Objectives](#celeste)
 - Lethal Company | [Objectives](#lethal-company)
+- Monster Hunter Wilds | [Objectives](#monster-hunter-wilds)
+- Nine Sols | [Objectives](#nine-sols)
+- Risk of Rain 2 | [Objectives](#risk-of-rain-2)
 - Smite 2 | [Objectives](#smite-2)
 
 ### WIP Games (Incomplete/Untested)
-- Nine Sols | [Objectives](#nine-sols)
-- Monster Hunter Wilds | [Objectives](#monster-hunter-wilds)
-- Risk of Rain 2 | [Objectives](#risk-of-rain-2)
+- None
 
 ## Game Objectives
 Game objectives listed by game and type. This should help you decide whether to include time-consuming or difficult objectives.
