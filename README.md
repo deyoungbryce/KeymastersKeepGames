@@ -4,7 +4,7 @@ Keymaster's Keep game implementations maintained by Taco.
 
 ## Games Included
 - Balatro
-    - [Objectives](###Balatro)
+    - [Objectives](#Balatro)
 - Blue Prince
 - Celeste
 - Lethal Company
