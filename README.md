@@ -13,7 +13,7 @@ Keymaster's Keep game implementations maintained by Taco.
 - Smite 2 | [Objectives](#smite-2)
 
 ### WIP Games (Incomplete/Untested)
-- None
+- Dome Keeper
 
 ## Game Objectives
 Game objectives listed by game and type. This should help you decide whether to include time-consuming or difficult objectives.

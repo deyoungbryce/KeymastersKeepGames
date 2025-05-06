@@ -40,9 +40,9 @@ class BluePrinceGame(Game):
                weight=4,
            ),
            GameObjectiveTemplate(
-               label="Draft the following rooms: ROOMS",
+               label="Draft the following rooms in a single day: ROOMS",
                data={
-                    "ROOMS": (self.rooms, 3),
+                    "ROOMS": (self.rooms_multiple, 3),
                },
                is_time_consuming=True,
                is_difficult=False,
@@ -192,6 +192,13 @@ class BluePrinceGame(Game):
             "Conservatory",
             "Lost and Found",
             "Closed Exhibit",
+            "The Armory",
+            "Mount Holly Gift Shop",
+        ]
+    
+    @functools.cached_property
+    def outside_rooms(self) -> List[str]:
+        return [
             "Tool Shed",
             "Shelter",
             "Schoolhouse",
@@ -200,11 +207,19 @@ class BluePrinceGame(Game):
             "Hovel",
             "Trading Post",
             "Tomb",
-            "The Armory",
-            "Mount Holly Gift Shop",
         ]
     
     def rooms(self) -> List[str]:
+        rooms: List[str] = self.base_rooms[:]
+
+        rooms.extend(self.outside_rooms[:])
+
+        if self.include_lategame_rooms:
+            rooms.extend(self.late_game_rooms[:])
+
+        return sorted(rooms)
+    
+    def rooms_multiple(self) -> List[str]:
         rooms: List[str] = self.base_rooms[:]
 
         if self.include_lategame_rooms:
