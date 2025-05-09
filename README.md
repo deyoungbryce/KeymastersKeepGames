@@ -6,6 +6,7 @@ Keymaster's Keep game implementations maintained by Taco.
 - Balatro | [Objectives](#balatro)
 - Blue Prince | [Objectives](#blue-prince)
 - Celeste | [Objectives](#celeste)
+- Dome Keeper | [Objectives](#dome-keeper)
 - Lethal Company | [Objectives](#lethal-company)
 - Monster Hunter Wilds | [Objectives](#monster-hunter-wilds)
 - Nine Sols | [Objectives](#nine-sols)
@@ -13,7 +14,7 @@ Keymaster's Keep game implementations maintained by Taco.
 - Smite 2 | [Objectives](#smite-2)
 
 ### WIP Games (Incomplete/Untested)
-- Dome Keeper
+- None
 
 ## Game Objectives
 Game objectives listed by game and type. This should help you decide whether to include time-consuming or difficult objectives.
@@ -42,6 +43,12 @@ Game objectives listed by game and type. This should help you decide whether to 
 - Complete (random chapter) after collecting at least (5-18) Strawberries
 - Collect the Crystal Heart in (random a-side chapter)
 - Complete the following Chapters: (3 random chapters) | Time-Consuming
+
+### Dome Keeper
+- Complete a Relic Hunt | Dome: (random dome) | Character: (random character) | Starting Gadget: (random starting gadget)
+- Complete the following Guild Assignment: (random guild assignment)
+- Add the following gadget to your dome and fully upgrade it: (random non-starting gadget)
+- Complete the following Guild Assignment on the Challenging difficulty: (random guild assignment) | Difficult
 
 ### Lethal Company
 - Collect (random scrap item)

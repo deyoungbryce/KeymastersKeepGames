@@ -513,6 +513,7 @@ class Smite2Game(Game):
             "Danzaburou",
             "Fenrir",
             "Geb",
+            "Guan Yu",
             "Hades",
             "Hecate",
             "Hercules",
@@ -533,7 +534,7 @@ class Smite2Game(Game):
             "Odin",
             "Pele",
             "Poseidon",
-            "Princess Bari"
+            "Princess Bari",
             "Ra",
             "Rama",
             "Sobek",
