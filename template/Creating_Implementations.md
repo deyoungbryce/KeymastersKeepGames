@@ -88,7 +88,7 @@ is_adult_only_or_unrated = False
 options_cls = TemplateArchipelagoOptions
 ```
 
-A full list of platform codes can be found at https://github.com/SerpentAI/Archipelago/blob/kk/worlds/keymasters_keep/enums.py
+I've included some of the most common platform codes, but a full list of platform codes can be found at https://github.com/SerpentAI/Archipelago/blob/kk/worlds/keymasters_keep/enums.py
 
 The main class is also where we will have basic methods for creating objectives and the data to pull from to create those objectives.
 - Optional Game Constraints: When objectives are generated for your game, these optional constraints can be placed on all of the objectives within a given keep area.
