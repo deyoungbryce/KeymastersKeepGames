@@ -4,7 +4,7 @@ This document is intended teach you how to create a basic game implementation fo
 ## Things to Know Before Getting Started
 - I am by no means an expert on Keymaster's Keep, nor Python coding in general. I have, however, been successful in creating multiple working KMK implementations and this my way of sharing that knowledge.
 - This guide is NOT intended to teach the ins and outs of Python coding and will require some outside learning to achieve anything beyond the scope of what is shared in the template project.
-- There are a plethora of playable game implementations, all of which can be found through the various repositories linked in the KMK Discord Thread, that can be used as a point of reference for creating your own implementation.
+- There are a plethora of playable game implementations, all of which can be found through the various repositories linked in the KMK Discord Thread, that can be used as a point of reference for creating your own implementation. When worst comes to worst, just look at how someone else did it.
 - This guide is intended to be able to teach ou how to create an implementation from scratch, but a template implementation has been provided and will be referenced throughout the guide as well.
 - **This is NOT an official document created by Serpent.AI (KMK Creator), so please do not DM or @ him about things related to this document, or the template**
 
