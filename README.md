@@ -13,8 +13,9 @@ Keymaster's Keep game implementations maintained by Taco.
 - Risk of Rain 2 | [Objectives](#risk-of-rain-2)
 - Smite 2 | [Objectives](#smite-2)
 
-### WIP Games (Incomplete/Untested)
-- None
+### WIP Games (Unfinished/Untested)
+- Core Keeper
+- Terraria
 
 ## Game Objectives
 Game objectives listed by game and type. This should help you decide whether to include time-consuming or difficult objectives.
@@ -43,6 +44,12 @@ Game objectives listed by game and type. This should help you decide whether to 
 - Complete (random chapter) after collecting at least (5-18) Strawberries
 - Collect the Crystal Heart in (random a-side chapter)
 - Complete the following Chapters: (3 random chapters) | Time-Consuming
+
+### Core Keeper
+- Defeat the following Boss: (random boss)
+- Defeat the following Boss with a (random weapon class) weapon: (random boss)
+- Obtain a (random fishable item) while fishing | Time-Consuming
+- Catch (5-15) (random fish) | Time-Consuming
 
 ### Dome Keeper
 - Complete a Relic Hunt | Dome: (random dome) | Character: (random character) | Starting Gadget: (random starting gadget)
@@ -99,3 +106,8 @@ Game objectives listed by game and type. This should help you decide whether to 
 - Hold 3 buffs at one time in (random jungle map) with (random god) | Difficult
 - In a (random gamemode) game, get First Blood | Time-Consuming, Difficult
 - Win a game with (random god) with the following build: (random starter), (6 random items) | Time-Consuming, Difficult
+
+### Terraria
+- Defeat one of the following Bosses: (random boss)
+- Defeat one of the following Bosses with a (random weapon class) weapon: (random boss)
+- Have the (random NPC) move in
