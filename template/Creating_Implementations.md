@@ -128,7 +128,7 @@ The description within the """ is what will be presented in the YAML as the opti
 
 These option classes are then used to define each option within the options dataclass explained earlier in the document.
 
-Option class types (such as the "Toggle" seen above) are a core Archipelago function, and thus, more information can be found within the Archipelago documenation. The option types can be found in this document detailing the Archipelago Options API. https://github.com/ArchipelagoMW/Archipelago/blob/main/docs/options%20api.md
+Option class types (such as the "Toggle" seen above) are a core Archipelago function, and thus, more information can be found within the Archipelago documentation. The option types can be found in this document detailing the Archipelago Options API. https://github.com/ArchipelagoMW/Archipelago/blob/main/docs/options%20api.md
 
 This guide will just be going over the Toggle option type, however the template includes the use of an "OptionSet" -- one of the more common option types.
 
