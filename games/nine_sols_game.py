@@ -65,6 +65,15 @@ class NineSolsGame(Game):
                 is_difficult=False,
                 weight=4,
             ),
+            GameObjectiveTemplate(
+                label="Defeat BOSS without using heals",
+                data={
+                    "BOSS": (self.bosses, 1),
+                },
+                is_time_consuming=False,
+                is_difficult=True,
+                weight=2,
+            ),
         ]
     
     def gifts_objectives(self) -> List[GameObjectiveTemplate]:

@@ -140,7 +140,7 @@ class RiskofRain2Game(Game):
         if self.has_sots:
             characters.extend(self.characters_sots[:])
 
-        return characters
+        return sorted(characters)
     
     @functools.cached_property
     def stages_base(self) -> List[str]:
@@ -188,7 +188,7 @@ class RiskofRain2Game(Game):
         if self.has_sots:
             stages.extend(self.stages_sots[:])
 
-        return stages
+        return sorted(stages)
 
     @functools.cached_property
     def bosses_base(self) -> List[str]:
@@ -230,7 +230,7 @@ class RiskofRain2Game(Game):
         if self.has_sots:
             bosses.extend(self.bosses_sots[:])
 
-        return bosses
+        return sorted(bosses)
     
     @staticmethod
     def chests_count() -> range:

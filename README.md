@@ -68,6 +68,7 @@ Game objectives listed by game and type. This should help you decide whether to 
 
 ### Nine Sols
 - Defeat (random boss) | Jades: (3 random jades) | Spell Style: (random spell style) | Arrow: (random arrow)
+- Defeat (random boss) without using heals | Difficult
 - Gift the (random gift) to Shuanshuan | Time-Consuming
 - Collect the (random map region) Map Data Chip from Shanhai | Time-Consuming
 - Defeat (random miniboss) | Time-Consuming
