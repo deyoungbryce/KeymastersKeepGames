@@ -10,7 +10,7 @@ This document is intended teach you how to create a basic game implementation fo
 
 ## Materials Required
 - IDE Capable of Linting Python Code
-    - Recommended: VSCode w/ Python Extension, PyCharm
+    - Recommended: VSCode w/ Python Extension or PyCharm
 - Github Account
     - Only needed if you want to share your implementations publicly.
     - This guide will not go over how to create a Github repo and/or how to share your implementations on said repo.
