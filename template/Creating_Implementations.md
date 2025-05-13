@@ -268,3 +268,5 @@ def optional_game_constraint_templates(self) -> List[GameObjectiveTemplate]:
 ```
 
 Here we can see the optional game constraint "Cannot take UPGRADE." If a keep area generated for this game, the area could have this restraint to keep players from using a random upgrade when attempting to complete their objectives.
+
+*Note: If you don't add any game constraint templates, you can just return ```list()```*
