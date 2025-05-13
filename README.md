@@ -6,16 +6,17 @@ Keymaster's Keep game implementations maintained by Taco.
 - Balatro | [Objectives](#balatro)
 - Blue Prince | [Objectives](#blue-prince)
 - Celeste | [Objectives](#celeste)
+- Core Keeper | [Objectives](#core-keeper)
 - Dome Keeper | [Objectives](#dome-keeper)
 - Lethal Company | [Objectives](#lethal-company)
 - Monster Hunter Wilds | [Objectives](#monster-hunter-wilds)
 - Nine Sols | [Objectives](#nine-sols)
 - Risk of Rain 2 | [Objectives](#risk-of-rain-2)
 - Smite 2 | [Objectives](#smite-2)
+- Terraria | [Objectives](#terraria)
 
 ### WIP Games (Unfinished/Untested)
-- Core Keeper
-- Terraria
+- None
 
 ## Game Objectives
 Game objectives listed by game and type. This should help you decide whether to include time-consuming or difficult objectives.
