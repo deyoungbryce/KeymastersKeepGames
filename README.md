@@ -109,6 +109,6 @@ Game objectives listed by game and type. This should help you decide whether to 
 - Win a game with (random god) with the following build: (random starter), (6 random items) | Time-Consuming, Difficult
 
 ### Terraria
-- Defeat one of the following Bosses: (random boss)
-- Defeat one of the following Bosses with a (random weapon class) weapon: (random boss)
+- Defeat one of the following Bosses: (2 random bosses)
+- Defeat one of the following Bosses with a (random weapon class) weapon: (2 random bosses)
 - Have the (random NPC) move in
