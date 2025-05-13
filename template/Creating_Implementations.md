@@ -16,7 +16,7 @@ This document is intended teach you how to create a basic game implementation fo
     - This guide will not go over how to create a Github repo and/or how to share your implementations on said repo.
 
 ## Getting Started
-This section will go over the layout and basic setup of an implementation. It will follow in order of how the template is layed out.
+This section will go over the layout and basic setup of an implementation. It will follow in order of how the template is laid out.
 
 ### Imports
 As with any project, KMK implementations have a few necessary imports
