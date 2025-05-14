@@ -130,7 +130,7 @@ These option classes are then used to define each option within the options data
 
 Option class types (such as the "Toggle" seen above) are a core Archipelago function, and thus, more information can be found within the Archipelago documentation. The option types can be found in this document detailing the Archipelago Options API. https://github.com/ArchipelagoMW/Archipelago/blob/main/docs/options%20api.md
 
-This guide will just be going over the Toggle option type, however the template includes the use of an "OptionSet" -- one of the more common option types.
+This guide will just be going over the Toggle option type, however the template includes the use of an "OptionSet" -- another one of the more common option types.
 
 ## Datasets
 Datasets are the lists of various weapons, characters, levels, etc. within your game that will be pulled from to plug into the game objective templates that you create. We will go over two types of datasets in this document: Static Methods and Cached Properties.
@@ -217,7 +217,7 @@ def game_objective_templates(self) -> List[GameObjectiveTemplate]:
     ]
 ```
 
-We can then start to fill out the above information. I will provide an example of a full template and then explain each part based off of the example.
+We can then start to fill out the above information. I will provide an example of a full game objective template and then explain each part based off of the example.
 ```python
 GameObjectiveTemplate(
     label="Beat the following levels: LEVELS",
