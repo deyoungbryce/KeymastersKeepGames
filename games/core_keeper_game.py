@@ -16,6 +16,7 @@ from ..enums import KeymastersKeepGamePlatforms
 @dataclass
 class CoreKeeperArchipelagoOptions:
     corekeeper_include_nonfish_items: CoreKeeperIncludeNonFishItems
+    corekeeper_include_rare_ingredients: CoreKeeperIncludeRareIngredients
 
 
 class CoreKeeperGame(Game):
@@ -77,11 +78,33 @@ class CoreKeeperGame(Game):
                 is_difficult=False,
                 weight=2,
             ),
+            GameObjectiveTemplate(
+                label="Hatch the following Pet: PET",
+                data={
+                    "PET": (self.pets, 1),
+                },
+                is_time_consuming=True,
+                is_difficult=False,
+                weight=2,
+            ),
+            GameObjectiveTemplate(
+                label="Cook and eat a dish using the following ingredients: INGREDIENTS",
+                data={
+                    "INGREDIENTS": (self.ingredients, 2),
+                },
+                is_time_consuming=False,
+                is_difficult=False,
+                weight=2,
+            ),
         ]
 
     @property
     def include_nonfish_items(self) -> bool:
         return bool(self.archipelago_options.corekeeper_include_nonfish_items.value)
+    
+    @property
+    def include_rare_ingredients(self) -> bool:
+        return bool(self.archipelago_options.core_keeper_include_rare_ingredients.value)
 
     @staticmethod
     def bosses() -> List[str]:
@@ -298,6 +321,113 @@ class CoreKeeperGame(Game):
         fish: List[str] = self.fishing_base[:]
 
         return sorted(fish)
+    
+    @staticmethod
+    def pets() -> List[str]:
+        return [
+            "Subterrier",
+            "Embertail",
+            "Owlux",
+            "Fanhare",
+            "Electro-Pet",
+            "Pheromoth",
+            "Arcane Symbiote",
+            "Snugglygrade",
+            "Jr. Orange Slime",
+            "Prince Slime",
+            "Jr. Purple Slime",
+            "Jr. Blue Slime",
+            "Jr. Lava Slime",
+        ]
+    
+    @functools.cached_property
+    def ingredients_base(self) -> List[str]:
+        return [
+            "Mushroom",
+            "Heart Berry",
+            "Glow Tulip",
+            "Bomb Pepper",
+            "Carrock",
+            "Bloat Oat",
+            "Puffungi",
+            "Pewpaya",
+            "Pinegrapple",
+            "Sunrice",
+            "Lunacorn",
+            "Grumpkin",
+            "Orange Cave Guppy",
+            "Blue Cave Guppy",
+            "Rock Jaw",
+            "Gem Crab",
+            "Green Blister Head",
+            "Yellow Blister Head",
+            "Devil Worm",
+            "Vampire Eel",
+            "Dagger Fin",
+            "Pink Palace Fish",
+            "Teal Palace Fish",
+            "Crown Squid",
+            "Azure Feather Fish",
+            "Emerald Feather Fish",
+            "Spirit Veil",
+            "Astral Jelly",
+            "Mold Shark",
+            "Rot Fish",
+            "Black Steel Urchin",
+            "Bottom Tracer",
+            "Silver Dart",
+            "Golden Dart",
+            "Pink Coralotl",
+            "White Coralotl",
+            "Solid Spikeback",
+            "Sandy Spikeback",
+            "Brown Dune Tail",
+            "Grey Dune Tail",
+            "Tornis Kingfish",
+            "Dark Lava Eater",
+            "Bright Lava Eater",
+            "Elder Dragonfish",
+            "Verdant Dragonfish",
+            "Starlight Nautilus",
+            "Beryll Angle Fish",
+            "Cosmic Form",
+            "Glistening Deepstalker",
+            "Jasper Angle Fish",
+            "Spledid Deepstalker",
+            "Terra Trilobite",
+            "Litho Trilobite",
+            "Pinkhorn Pico",
+            "Greenhorn Pico",
+            "Riftian Lampfish",
+            "Larva Meat",
+            "Marbled Meat",
+            "Dodo Egg"
+        ]
+    
+    @functools.cached_property
+    def rare_ingredients(self) -> List[str]:
+        return [
+            "Golden Heart Berry",
+            "Golden Glow Tulip",
+            "Golden Bomb Pepper",
+            "Golden Carrock",
+            "Golden Bloat Oat",
+            "Golden Puffungi",
+            "Golden Pewpaya",
+            "Golden Pinegrapple",
+            "Golden Sunrice",
+            "Golden Lunacorn",
+            "Golden Grumpkin",
+            "Shiny Larva Meat",
+        ]
+    
+    def ingredients(self) -> List[str]:
+        ingredients: List[str] = self.ingredients_base[:]
+
+        if self.include_rare_ingredients:
+            ingredients.extend(self.rare_ingredients[:])
+
+        return sorted(ingredients)
 
 # Archipelago Options
 class CoreKeeperIncludeNonFishItems(Toggle):
@@ -307,3 +437,11 @@ class CoreKeeperIncludeNonFishItems(Toggle):
     """
 
     display_name = "Core Keeper Include Non-Fish Items"
+
+class CoreKeeperIncludeRareIngredients(Toggle):
+    """
+    Indicated whether to include rare ingredients when generating Core Keeper cooking objectives.
+    This would include the golden/shiny variants of cooking ingredients.
+    """
+
+    display_name = "Core Keeper Include Rare Ingredients"

@@ -49,6 +49,8 @@ Game objectives listed by game and type. This should help you decide whether to 
 ### Core Keeper
 - Defeat the following Boss: (random boss)
 - Defeat the following Boss with a (random weapon class) weapon: (random boss)
+- Cook a dish using the following ingredients: (2 random ingredients)
+- Hatch the following pet: (random pet)
 - Obtain a (random fishable item) while fishing | Time-Consuming
 - Catch (5-15) (random fish) | Time-Consuming
 

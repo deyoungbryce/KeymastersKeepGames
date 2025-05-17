@@ -45,7 +45,7 @@ class RiskofRain2Game(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=4,
+                weight=3,
             ),
             GameObjectiveTemplate(
                 label="Open CHESTS chests in STAGE",
@@ -64,7 +64,7 @@ class RiskofRain2Game(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=4,
+                weight=3,
             ),
             GameObjectiveTemplate(
                 label="Defeat BOSS as CHARACTER",
