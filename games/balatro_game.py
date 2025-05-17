@@ -65,7 +65,7 @@ class BalatroGame(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=2,
+                weight=4,
             ),
             GameObjectiveTemplate(
                 label="Play HAND COUNT times in a single run",

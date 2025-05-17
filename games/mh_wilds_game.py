@@ -65,7 +65,7 @@ class MHWildsGame(Game):
                 weight=3,
             ),
             GameObjectiveTemplate(
-                label="Hunt 2 STAGE Monsters",
+                label="Hunt 2 Monsters on the following stage: STAGE",
                 data={
                     "STAGE": (self.stages, 1),
                 },
@@ -165,7 +165,6 @@ class MHWildsGame(Game):
             "Oilwell Basin",
             "Iceshard Cliffs",
             "Ruins of Wyveria",
-            "Dragontorch Shrine",
             "Rimechain Peak",
             "Wounded Hollow"
         ]
