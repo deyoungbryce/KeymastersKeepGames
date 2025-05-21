@@ -37,7 +37,7 @@ class BluePrinceGame(Game):
                },
                is_time_consuming=False,
                is_difficult=False,
-               weight=4,
+               weight=3,
            ),
            GameObjectiveTemplate(
                label="Draft the following rooms in a single day: ROOMS",
@@ -46,7 +46,7 @@ class BluePrinceGame(Game):
                },
                is_time_consuming=True,
                is_difficult=False,
-               weight=3,
+               weight=2,
            ),
            GameObjectiveTemplate(
                label="Complete a PUZZLE puzzle",
@@ -55,7 +55,7 @@ class BluePrinceGame(Game):
                },
                is_time_consuming=False,
                is_difficult=False,
-               weight=4,
+               weight=3,
            ),
            GameObjectiveTemplate(
                label="Draft 5 TYPE rooms in a single day",
@@ -64,7 +64,7 @@ class BluePrinceGame(Game):
                },
                is_time_consuming=True,
                is_difficult=False,
-               weight=3,
+               weight=2,
            ),
            GameObjectiveTemplate(
                label="Collect the following items in a single day: ITEMS",

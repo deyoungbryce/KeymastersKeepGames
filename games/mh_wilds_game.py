@@ -36,16 +36,16 @@ class MHWildsGame(Game):
     def game_objective_templates(self) -> List[GameObjectiveTemplate]:
         return [
             GameObjectiveTemplate(
-                label="Slay the following Monster: MONSTER",
+                label="Hunt the following Monster: MONSTER",
                 data={
                     "MONSTER": (self.monsters, 1),
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=4,
+                weight=3,
             ),
             GameObjectiveTemplate(
-                label="Slay AMOUNT of the following small monster: MONSTER",
+                label="Hunt AMOUNT of the following small monster: MONSTER",
                 data={
                     "AMOUNT": (self.small_monster_range, 1),
                     "MONSTER": (self.small_monsters, 1),
@@ -55,7 +55,7 @@ class MHWildsGame(Game):
                 weight=3,
             ),
             GameObjectiveTemplate(
-                label="Slay the following Monster with the WEAPON: MONSTER",
+                label="Hunt the following Monster with the WEAPON: MONSTER",
                 data={
                     "WEAPON": (self.weapons, 1),
                     "MONSTER": (self.monsters, 1),

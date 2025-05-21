@@ -16,7 +16,7 @@ Keymaster's Keep game implementations maintained by Taco.
 - Terraria | [Objectives](#terraria)
 
 ### WIP Games (Unfinished/Untested)
-- None
+- Nubby's Number Factory
 
 ## Game Objectives
 Game objectives listed by game and type. This should help you decide whether to include time-consuming or difficult objectives.
@@ -96,13 +96,7 @@ Game objectives listed by game and type. This should help you decide whether to 
 - Win a game in the (random role) role while using a (different role) god
 - Win a game with (random god), having built (random item)
 - Win a game with (random god), having built (3 random items)
-- Win a game with (random god) while only building Strength items (Starter Excluded)
-- Win a game with (random god) while only building Intelligence items (Starter Excluded)
-- Win a game with (random god) while only building Protection items (Starter Excluded)
-- Win a game with (random god) while only building Cooldown Reduction items (Starter Excluded)
-- Win a game with (random god) while only building Max Health items (Starter Excluded)
-- Win a game with (random god) while only building Max Mana items (Starter Excluded)
-- Win a game with (random god) while only building Penetration items (Starter Excluded)
+- Win a game with (random god) while only building (random item type) items (Starter Excluded)
 - In a (random gamemode) game, deal 30000 player damage using (random god)
 - In a (random gamemode) game, mitigate 30000 player damage using (random god)
 - Win a game of Assault using a (magical OR physical) God

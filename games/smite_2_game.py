@@ -118,72 +118,10 @@ class Smite2Game(Game):
                 weight=5,
             ),
             GameObjectiveTemplate(
-                label="Win a game with GOD while only building Strength items (Starter Excluded)",
+                label="Win a game with GOD while only building TYPE items (Starter Excluded)",
                 data={
-                    "GOD": (self.gods, 1)
-                },
-                is_time_consuming=False,
-                is_difficult=False,
-                weight=5,
-            ),
-            GameObjectiveTemplate(
-                label="Win a game with GOD while only building Intelligence items (Starter Excluded)",
-                data={
-                    "GOD": (self.gods, 1)
-                },
-                is_time_consuming=False,
-                is_difficult=False,
-                weight=5,
-            ),
-            GameObjectiveTemplate(
-                label="Win a game with GOD while only building Attack Speed items (Starter Excluded)",
-                data={
-                    "GOD": (self.gods, 1)
-                },
-                is_time_consuming=False,
-                is_difficult=False,
-                weight=5,
-            ),
-            GameObjectiveTemplate(
-                label="Win a game with GOD while only building Protection items (Starter Exluded)",
-                data={
-                    "GOD": (self.gods, 1)
-                },
-                is_time_consuming=False,
-                is_difficult=False,
-                weight=5,
-            ),
-            GameObjectiveTemplate(
-                label="Win a game with GOD while only building Cooldown Reduction items (Starter Excluded)",
-                data={
-                    "GOD": (self.gods, 1)
-                },
-                is_time_consuming=False,
-                is_difficult=False,
-                weight=5,
-            ),
-            GameObjectiveTemplate(
-                label="Win a game with GOD while only building Max Health items (Starter Excluded)",
-                data={
-                    "GOD": (self.gods, 1)
-                },
-                is_time_consuming=False,
-                is_difficult=False,
-                weight=5,
-            ),
-            GameObjectiveTemplate(
-                label="Win a game with GOD while only building Max Mana items (Starter Excluded)",
-                data={
-                    "GOD": (self.gods, 1)
-                },
-                is_time_consuming=False,
-                is_difficult=False,
-                weight=5,
-            ),
-            GameObjectiveTemplate(
-                label="Win a game with GOD while only building Penetration items (Starter Excluded)",
-                data={
-                    "GOD": (self.gods, 1)
+                    "GOD": (self.gods, 1),
+                    "TYPE": (self.item_types, 1),
                 },
                 is_time_consuming=False,
                 is_difficult=False,
@@ -498,6 +436,7 @@ class Smite2Game(Game):
             "Anhur",
             "Anubis",
             "Aphrodite",
+            "Apollo",
             "Ares",
             "Artemis",
             "Athena",
@@ -564,6 +503,19 @@ class Smite2Game(Game):
         return [
             "Physical",
             "Magical",
+        ]
+    
+    @staticmethod
+    def item_types() -> List[str]:
+        return [
+            "Strength",
+            "Intelligence",
+            "Attack Speed",
+            "Protection",
+            "Cooldown Reduction",
+            "Max Health",
+            "Max Mana",
+            "Penetration",
         ]
 
     @staticmethod

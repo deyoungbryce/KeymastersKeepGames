@@ -50,7 +50,7 @@ class DomeKeeperGame(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=2
+                weight=3
             ),
             GameObjectiveTemplate(
                 label="Add the following gadget to your dome and fully upgrade it: GADGET",
@@ -106,7 +106,7 @@ class DomeKeeperGame(Game):
             "Shield",
             "Repellant",
             "Orchard",
-            "Droneyard"
+            "Droneyard",
         ]
 
     @staticmethod
