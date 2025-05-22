@@ -222,7 +222,7 @@ class NubbyGame(Game):
             "Candle",
             "Tornado",
             "Drainer",
-            "House 'O' Cards"
+            "House 'O' Cards",
             "Eggy",
             "Buckshot",
             "Void",
