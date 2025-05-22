@@ -401,7 +401,7 @@ class CoreKeeperGame(Game):
             "Riftian Lampfish",
             "Larva Meat",
             "Marbled Meat",
-            "Dodo Egg"
+            "Dodo Egg",
         ]
     
     @functools.cached_property
@@ -419,6 +419,7 @@ class CoreKeeperGame(Game):
             "Golden Lunacorn",
             "Golden Grumpkin",
             "Shiny Larva Meat",
+            "Giant Mushroom",
         ]
     
     def ingredients(self) -> List[str]:
