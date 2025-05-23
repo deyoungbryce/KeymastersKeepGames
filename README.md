@@ -91,7 +91,7 @@ Game objectives listed by game and type. This should help you decide whether to 
 - Win a run using the following Black Market item: (random black market item)
 - Purchase and trigger the (random perk) perk
 - Win a run using the following supervisor: (random supervisor)
-- Beat the (random challenge) challenge
+- Beat the (random challenge) challenge | Difficult
 
 ### Risk of Rain 2
 - Complete a run as (random character)
