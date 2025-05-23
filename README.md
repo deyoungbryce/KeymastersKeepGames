@@ -11,12 +11,13 @@ Keymaster's Keep game implementations maintained by Taco.
 - Lethal Company | [Objectives](#lethal-company)
 - Monster Hunter Wilds | [Objectives](#monster-hunter-wilds)
 - Nine Sols | [Objectives](#nine-sols)
+- Nubby's Number Factory | [Objectives](#nubbys-number-factory)
 - Risk of Rain 2 | [Objectives](#risk-of-rain-2)
 - Smite 2 | [Objectives](#smite-2)
 - Terraria | [Objectives](#terraria)
 
 ### WIP Games (Unfinished/Untested)
-- Nubby's Number Factory
+- None
 
 ## Game Objectives
 Game objectives listed by game and type. This should help you decide whether to include time-consuming or difficult objectives.
@@ -82,6 +83,15 @@ Game objectives listed by game and type. This should help you decide whether to 
 - Gift the (random gift) to Shuanshuan | Time-Consuming
 - Collect the (random map region) Map Data Chip from Shanhai | Time-Consuming
 - Defeat (random miniboss) | Time-Consuming
+
+### Nubby's Number Factory
+- Obtain and upgrade the following item: (random item)
+- Win a run using the following items: (3 random items)
+- Purchase the following items from the Cafe in one run: (2 random cafe items)
+- Win a run using the following Black Market item: (random black market item)
+- Purchase and trigger the (random perk) perk
+- Win a run using the following supervisor: (random supervisor)
+- Beat the (random challenge) challenge
 
 ### Risk of Rain 2
 - Complete a run as (random character)
