@@ -17,7 +17,7 @@ Keymaster's Keep game implementations maintained by Taco.
 - Terraria | [Objectives](#terraria)
 
 ### WIP Games (Unfinished/Untested)
-- Call of Duty: Black Ops 3 Zombies
+None
 
 ## Game Objectives
 Game objectives listed by game and type. This should help you decide whether to include time-consuming or difficult objectives.
