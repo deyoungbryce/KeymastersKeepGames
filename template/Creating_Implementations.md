@@ -231,8 +231,8 @@ GameObjectiveTemplate(
 ```
 
 - The label contains the actual objective "Beat the following levels:" and an identifying word "LEVELS." This word can be whatever you want it to be, but I typically like to make it the same as whatever dataset is being pulled from, in all caps.
-- Contained within "data" we set the indentifying word from the label to be replaced with a certain quantity of data from a certain dataset. Basically, the setup goes ```"Indentifier": (self.dataset, quantity)```
-- ```is_time_consuming``` and ```is_difficult``` just get set to True or False.
+- Within "data" we set the indentifying word from the label to be replaced with a certain quantity of data from a certain dataset. Basically, the setup goes ```"Indentifier": (self.dataset, quantity)```. The datasets that we pull from here MUST be in the form of a function that can be called. Essentially, we can only use the static methods or functions that combine multiple lists to pull data from.
+- ```is_time_consuming``` and ```is_difficult``` just get set to True or False, rather intuitively.
 - ```weight```, in this instance, is set to 3. The higher the weight, the more likely you are to see that objective when this game's objectives are used in KMK.
 
 Objective templates can also contain multiple types of data pulled from different datasets and placed at different locations in the label. 
