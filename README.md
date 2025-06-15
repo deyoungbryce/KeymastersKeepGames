@@ -9,6 +9,7 @@ Keymaster's Keep game implementations maintained by Taco.
 - Core Keeper | [Objectives](#core-keeper)
 - Dome Keeper | [Objectives](#dome-keeper)
 - Lethal Company | [Objectives](#lethal-company)
+- Lies of P | [Objectives](#lies-of-p)
 - Monster Hunter Wilds | [Objectives](#monster-hunter-wilds)
 - Nine Sols | [Objectives](#nine-sols)
 - Nubby's Number Factory | [Objectives](#nubbys-number-factory)
@@ -70,6 +71,12 @@ Game objectives listed by game and type. This should help you decide whether to 
 - Purchase the (random cosmetic) from the store | Time-Consuming
 - Land on (random moon) while the weather conditions are the following: (random weather) | Time-Consuming
 - Kill (random monster) | Difficult
+
+### Lies of P
+- Defeat (random boss)
+- Defeat the following bosses in a Death March on any difficulty: (3 random bosses)
+- Defeat (random boss) while using the following weapon: (random assembled or special weapon)
+- Defeat (random boss) on difficulty (random difficulty)
 
 ### Monster Hunter Wilds
 - Slay the following Monster: (random monster)
