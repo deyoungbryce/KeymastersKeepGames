@@ -10,7 +10,7 @@ from Options import Toggle
 from ..game import Game
 from ..game_objective_template import GameObjectiveTemplate
 
-from enums import KeymastersKeepGamePlatforms
+from ..enums import KeymastersKeepGamePlatforms
 
 
 @dataclass
@@ -34,7 +34,14 @@ class PeakGame(Game):
     def game_objective_templates(self) -> List[GameObjectiveTemplate]:
         objectives: List[GameObjectiveTemplate] = list()
 
-        objectives += [
+        objectives += self.base_objectives()
+        if self.include_side_quests:
+            objectives += self.side_quest_objectives()
+
+        return objectives
+    
+    def base_objectives(self) -> List[GameObjectiveTemplate]:
+        return [
             GameObjectiveTemplate(
                 label="Climb past the LEVEL without losing a team member",
                 data={
@@ -72,10 +79,10 @@ class PeakGame(Game):
                 weight=3,
             ),
         ]
-
-        if self.include_side_quests:
-            objectives += [
-                GameObjectiveTemplate(
+    
+    def side_quest_objectives(self) -> List[GameObjectiveTemplate]:
+        return [
+            GameObjectiveTemplate(
                     label="SIDE QUEST",
                     data={
                         "SIDE QUEST": (self.side_quests, 1),
@@ -84,9 +91,7 @@ class PeakGame(Game):
                     is_difficult=False,
                     weight=3
                 ),
-            ]
-
-        return objectives
+        ]
     
     @property
     def include_side_quests(self) -> bool:

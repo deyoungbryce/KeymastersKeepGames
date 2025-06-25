@@ -49,7 +49,7 @@ class LiesOfPGame(Game):
 
     def game_objective_templates(self) -> List[GameObjectiveTemplate]:
         objectives: List[GameObjectiveTemplate] = list()
-        objectives += self.base_objectivess()
+        objectives += self.base_objectives()
         if self.include_weapon_objectives:
             objectives += self.weapon_objectives()
         if self.include_difficulties:
@@ -57,7 +57,7 @@ class LiesOfPGame(Game):
         
         return objectives
     
-    def base_objectivess(self) -> List[GameObjectiveTemplate]:
+    def base_objectives(self) -> List[GameObjectiveTemplate]:
         return [
             GameObjectiveTemplate(
                 label="Defeat BOSS",
