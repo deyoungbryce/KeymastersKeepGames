@@ -13,6 +13,7 @@ Keymaster's Keep game implementations maintained by Taco.
 - Monster Hunter Wilds | [Objectives](#monster-hunter-wilds)
 - Nine Sols | [Objectives](#nine-sols)
 - Nubby's Number Factory | [Objectives](#nubbys-number-factory)
+- PEAK |
 - Risk of Rain 2 | [Objectives](#risk-of-rain-2)
 - Smite 2 | [Objectives](#smite-2)
 - Terraria | [Objectives](#terraria)
@@ -99,6 +100,13 @@ Game objectives listed by game and type. This should help you decide whether to 
 - Purchase and trigger the (random perk) perk
 - Win a run using the following supervisor: (random supervisor)
 - Beat the (random challenge) challenge | Difficult
+
+### PEAK
+- Climb past the (random level/environment) without losing a team member
+- Eat the following food: (random food)
+- Cook and eat the following food: (random food)
+- Obtain and make use of the following equipment: (random equipment)
+- (random objective pulled from a small list of "side quests")
 
 ### Risk of Rain 2
 - Complete a run as (random character)
