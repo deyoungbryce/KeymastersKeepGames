@@ -13,7 +13,7 @@ Keymaster's Keep game implementations maintained by Taco.
 - Monster Hunter Wilds | [Objectives](#monster-hunter-wilds)
 - Nine Sols | [Objectives](#nine-sols)
 - Nubby's Number Factory | [Objectives](#nubbys-number-factory)
-- PEAK |
+- PEAK | [Objectives](#peak)
 - Risk of Rain 2 | [Objectives](#risk-of-rain-2)
 - Smite 2 | [Objectives](#smite-2)
 - Terraria | [Objectives](#terraria)
