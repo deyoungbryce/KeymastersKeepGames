@@ -21,7 +21,7 @@ Keymaster's Keep game implementations maintained by Taco.
 - Terraria | [Objectives](#terraria)
 
 ### Alternate Implementations
-The following are games that I've gone ahead and made my own version of the implementation either because I wanted a simpler version, or I wanted an implementation that focuses on a different playstyle. Links will be included to provide visibility for other dev's work.
+The following are games that I've made my own version of the implementation for either because I wanted a simpler version, or I wanted an implementation that focuses on a different playstyle. Links will be included to provide visibility for other dev's work.
 
 - Destiny 2
     - Author: PotatoGrant | [Link](https://github.com/SerpentAI/KeymastersKeepGameArchive/blob/main/destiny_2_game.py)
