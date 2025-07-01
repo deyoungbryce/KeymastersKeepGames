@@ -7,7 +7,9 @@ Keymaster's Keep game implementations maintained by Taco.
 - Blue Prince | [Objectives](#blue-prince)
 - Celeste | [Objectives](#celeste)
 - Core Keeper | [Objectives](#core-keeper)
+- Destiny 2 | [Objectives](destiny-2)
 - Dome Keeper | [Objectives](#dome-keeper)
+- Elden Ring Nightreign | [Objectives](#elden-ring-nightreign)
 - Lethal Company | [Objectives](#lethal-company)
 - Lies of P | [Objectives](#lies-of-p)
 - Monster Hunter Wilds | [Objectives](#monster-hunter-wilds)
@@ -17,6 +19,14 @@ Keymaster's Keep game implementations maintained by Taco.
 - Risk of Rain 2 | [Objectives](#risk-of-rain-2)
 - Smite 2 | [Objectives](#smite-2)
 - Terraria | [Objectives](#terraria)
+
+### Alternate Implementations
+The following are games that I've gone ahead and made my own version of the implementation either because I wanted a simpler version, or I wanted an implementation that focuses on a different playstyle. Links will be included to provide visibility for other dev's work.
+
+- Destiny 2
+    - Author: PotatoGrant | [Link](https://github.com/SerpentAI/KeymastersKeepGameArchive/blob/main/destiny_2_game.py)
+- Elden Ring Nightreign
+    - Author: Endi | [Link](https://github.com/Endivine1337/KeymastersKeepGames/blob/main/elden_ring_nightreign_game.py)
 
 ### WIP Games (Unfinished/Untested)
 None
@@ -57,11 +67,24 @@ Game objectives listed by game and type. This should help you decide whether to 
 - Obtain a (random fishable item) while fishing | Time-Consuming
 - Catch (5-15) (random fish) | Time-Consuming
 
+### Destiny 2
+- Win 3 Crucible matches in any mode while playing (random subclass)
+- Complete a Pathfinder in the (vanguard or crucible) playlist
+- Complete a Dares of Eternity run with over 100K while playing (random subclass)
+- Complete (random dungeon)
+- Complete (random raid)
+- Complete the current Grandmaster (or next highest difficult if not available) Nightfall as (random subclass)
+
 ### Dome Keeper
 - Complete a Relic Hunt | Dome: (random dome) | Character: (random character) | Starting Gadget: (random starting gadget)
 - Complete the following Guild Assignment: (random guild assignment)
 - Add the following gadget to your dome and fully upgrade it: (random non-starting gadget)
 - Complete the following Guild Assignment on the Challenging difficulty: (random guild assignment) | Difficult
+
+### Elden Ring Nightreign
+- Defeat (random nightlord)
+- Defeat (random nightlord) with 3 (random character)
+- Defeat (random nightlord) with (3 random characters)
 
 ### Lethal Company
 - Collect (random scrap item)
