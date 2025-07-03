@@ -104,7 +104,7 @@ class CoreKeeperGame(Game):
     
     @property
     def include_rare_ingredients(self) -> bool:
-        return bool(self.archipelago_options.core_keeper_include_rare_ingredients.value)
+        return bool(self.archipelago_options.corekeeper_include_rare_ingredients.value)
 
     @staticmethod
     def bosses() -> List[str]:
