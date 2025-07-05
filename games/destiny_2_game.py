@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import List
+from typing import List, Set
 
 from dataclasses import dataclass
 
@@ -56,7 +56,7 @@ class Destiny2Game(Game):
                 weight=1,
             ),
             GameObjectiveTemplate(
-                label="Complete a Dares of Eternity run with over 100K score while playing SUBCLASS",
+                label="Complete a Dares of Eternity run while playing SUBCLASS",
                 data={
                     "SUBCLASS": (self.subclasses, 1),
                 },
@@ -69,8 +69,8 @@ class Destiny2Game(Game):
                 data={
                     "DUNGEON": (self.dungeons, 1),
                 },
-                is_time_consuming=True,
-                is_difficult=True,
+                is_time_consuming=False,
+                is_difficult=False,
                 weight=5,
             ),
             GameObjectiveTemplate(
@@ -78,8 +78,8 @@ class Destiny2Game(Game):
                 data={
                     "RAID": (self.raids, 1),
                 },
-                is_time_consuming=True,
-                is_difficult=True,
+                is_time_consuming=False,
+                is_difficult=False,
                 weight=2,
             ),
             GameObjectiveTemplate(
@@ -87,14 +87,21 @@ class Destiny2Game(Game):
                 data={
                     "SUBCLASS": (self.subclasses, 1),
                 },
-                is_time_consuming=True,
-                is_difficult=True,
+                is_time_consuming=False,
+                is_difficult=False,
                 weight=5,
             ),
         ]
 
-    def subclasses(self) -> List[str]:
+
+    @property
+    def subclasses_option(self) -> List[str]:
         return sorted(self.archipelago_options.destiny_2_subclasses.value)
+    
+    def subclasses(self) -> List[str]:
+        subclasses: List[str] = self.subclasses_option[:]
+
+        return sorted(subclasses)
     
     @staticmethod
     def playlists() -> List[str]:

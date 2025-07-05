@@ -36,7 +36,7 @@ class NightreignGame(Game):
     def optional_game_constraint_template(self) -> List[GameObjectiveTemplate]:
         return list()
     
-    def game_objective_template(self) -> List[GameObjectiveTemplate]:
+    def game_objective_templates(self) -> List[GameObjectiveTemplate]:
         return [
             GameObjectiveTemplate(
                 label="Defeat BOSS",
@@ -48,7 +48,7 @@ class NightreignGame(Game):
                 weight=2,
             ),
             GameObjectiveTemplate(
-                label="Defeat BOSS with 3 CHARACTERs",
+                label="Defeat BOSS with 3 of the following character: CHARACTER",
                 data={
                     "BOSS": (self.bosses, 1),
                     "CHARACTER": (self.characters, 1),
@@ -69,11 +69,23 @@ class NightreignGame(Game):
             ),
         ]
     
-    def characters(self) -> Set[str]:
-        return self.archipelago_options.nightreign_character_selection.value
+    @property
+    def characters_option(self) -> List[str]:
+        return sorted(self.archipelago_options.nightreign_character_selection.value)
     
-    def bosses(self) -> Set[str]:
-        return self.archipelago_options.nightreign_boss_selection.value
+    @property
+    def bosses_option(self) -> List[str]:
+        return sorted(self.archipelago_options.nightreign_boss_selection.value)
+    
+    def characters(self) -> List[str]:
+        characters: List[str] = self.characters_option[:]
+
+        return sorted(characters)
+    
+    def bosses(self) -> List[str]:
+        bosses: List[str] = self.bosses_option[:]
+
+        return sorted(bosses)
 
 #Archipelago Options
 class NightreignCharacterSelection(OptionSet):
