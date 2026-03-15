@@ -242,7 +242,7 @@ class BalatroGame(Game):
 # Archipelago Options
 class BalatroIncludeDifficultStakes(Toggle):
     """
-    Indicates whether to include difficult stakes when generating Balatro objectives.
+    Indicates whether to include difficult stakes (Purple, Orange, Gold) when generating Balatro objectives.
     """
 
     display_name = "Balatro Include Difficult Stakes"
